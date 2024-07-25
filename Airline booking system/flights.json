@@ -1,0 +1,40 @@
+[
+    {
+        "source": "Boston",
+        "destination": "Austin",
+        "airline": "American Airlines",
+        "flightNumber": "A123",
+        "departure": "10:00 AM",
+        "arrival": "6:00 PM"
+    },
+    {
+        "source": "Boston",
+        "destination": "Austin",
+        "airline": "Delta Airlines",
+        "flightNumber": "D5623"
+    },
+    {
+        "source": "Austin",
+        "destination": "Boston",
+        "airline": "American Airlines",
+        "flightNumber": "A456"
+    },
+    {
+        "source": "Boston",
+        "destination": "Dallas",
+        "airline": "Delta Airlines",
+        "flightNumber": "D098"
+    },
+    {
+        "source": "Dallas",
+        "destination": "Austin",
+        "airline": "American Airlines",
+        "flightNumber": "A1890"
+    },
+    {
+        "source": "Columbus",
+        "destination": "Austin",
+        "airline": "American Airlines",
+        "flightNumber": "A1345"
+    }
+]

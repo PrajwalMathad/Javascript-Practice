@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script type="module" src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>HTML | CoderPad</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="header">
+        <div>
+          <img src="https://storage.googleapis.com/coderpad_project_template_assets/html_logo.svg" />
+          <span>Flight Booking System</span>
+        </div>
+      </div>
+      <div id="content">
+        <form id="searchForm">
+            <label for="source">Source</label>
+            <input id="source" name="source"/>
+            <label for="destination">Destination</label>
+            <input id="destination" name="destination"/>
+            <button type="submit">Search</button>
+        </form>
+        <div id="flightList" class="flight-list">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
